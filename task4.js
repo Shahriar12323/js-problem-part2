@@ -9,6 +9,7 @@ const phones = [
     { model: "PhoneF", brand: "HTC", price: 48 },
 ];
 
+console.log(typeof phones)
 function findAveragePhonePrice(phones) {
     if (phones.length === 0) {
         return 0;
@@ -24,3 +25,4 @@ function findAveragePhonePrice(phones) {
 }
 const average = findAveragePhonePrice(phones);
 console.log(average);
+
